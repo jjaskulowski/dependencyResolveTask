@@ -8,13 +8,13 @@ B,1
 A,1,B,1
 A,2,B,2
 C,1,B,1
-● The first line is the number (N) of packages to install.
-● The next N lines are packages to install. These are in the form p,v where p is a
+- The first line is the number (N) of packages to install.
+- The next N lines are packages to install. These are in the form p,v where p is a
 package and v is a version that needs to be installed.
-● The next line is the number (M) of dependencies
-● The following M lines are of the form p1,v1,p2,v2 indicating that package p1 in
+- The next line is the number (M) of dependencies
+- The following M lines are of the form p1,v1,p2,v2 indicating that package p1 in
 version v1 depends on p2 in version v2.
-● Packages and version are guaranteed to not contain ',' characters.
+- Packages and version are guaranteed to not contain ',' characters.
 
 If more than one version of a package is required the installation is invalid. Your task is
 to check if installing the packages (along with all packages required by
